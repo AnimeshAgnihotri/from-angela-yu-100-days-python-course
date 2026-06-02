@@ -28,3 +28,4 @@ ans=""
 for i in password:
     ans=ans+i
 print(ans)
+print("ashita")
