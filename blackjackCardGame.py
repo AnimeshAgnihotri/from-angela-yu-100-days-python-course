@@ -1,4 +1,6 @@
 import random
+from logos import logo_2
+print(logo_2)
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 card_addition=0
 comp_addition=0
