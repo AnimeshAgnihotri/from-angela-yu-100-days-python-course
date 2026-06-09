@@ -1,9 +1,9 @@
-from logos import logo_1
+from art import logo
 import random
 #*************************************************************************************************
 E=5
 H=5
-print(logo_1)
+print(logo)
 num_list=[random.randint(1,100)]
 #for i in range(1,101):
    # num_list.append(i)
@@ -17,7 +17,7 @@ def guess_Func(chosen_number, chance):
         chance = chance - 1
         guess = int(input("guess the number: "))
 
-        print(chosen_number)
+        #print(chosen_number)
         if guess < chosen_number:
             print("you guessed the number low")
             print(f"chance left: {chance}")
@@ -28,6 +28,8 @@ def guess_Func(chosen_number, chance):
         else:
             print("you guessed the number high")
             print(f"chance left: {chance}")
+        if chance==0:
+            print(f"chosen number was {chosen_number}")
 #*************************************************************************************************
 def game(user_choice):
     while user_choice!="n":
@@ -48,3 +50,4 @@ a=str(input("do you wanna start this game? type 'y' or  'n'__ "))
 if a=='y':
     user_choice = input(str("*****do wanna guess a number? type 'y' or  'n'__ "))
     game(user_choice)
+#print(chosen_number)
