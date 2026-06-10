@@ -1,9 +1,9 @@
 
-from art import logo, vs
+from art import logos3, logos4
 from famous_personality import famous_people_instagram
 print("lower higher \n")
 
-print(logo)
+print(logo3)
 import random
 
 
@@ -30,7 +30,7 @@ while user_input == 'y':
 
         print(a)
 
-        print(vs)
+        print(logos4)
 
         print(b)
 
