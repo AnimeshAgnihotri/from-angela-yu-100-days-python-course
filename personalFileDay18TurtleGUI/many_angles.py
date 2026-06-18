@@ -1,9 +1,22 @@
 import random
-from turtle import Turtle
+from turtle import Turtle, colormode
 from turtle import Screen
+
+
+
+
 timmy=Turtle()
+colormode(255)
 timmy.shape("circle")
-timmy.color("red")
+#timmy.color("red")
+
+
+#colors=["red", "green", "blue", "black", "yellow", "violet", "brown"]
+def color_chooser():
+    r=random.randint(0,255)
+    g=random.randint(0,255)
+    b=random.randint(0,255)
+    return r,g,b
 for i in range(4):
     timmy.forward(100)
     timmy.left(90)
@@ -24,14 +37,14 @@ for i in range(3, 50, 1):
     if 360%i==0:
         a.append(i)
 print(a)
-colors=["red", "green", "blue", "black", "yellow", "violet", "brown"]
-
 
 for i in a:
     print(i)
     k=0
+    timmy.color(color_chooser())
     while k in range(i):
-        timmy.color(random.choice(colors))
+        #timmy.color(random.choice(colors))
+
         timmy.forward(35)
         timmy.left(360/i)
         print(360/i)
