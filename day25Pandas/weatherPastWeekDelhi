@@ -1,0 +1,8 @@
+Date,Weather,High_Temperature_C,Low_Temperature_C,Rainfall_mm,Remarks
+2026-06-28,"Very hot and humid, monsoon delayed",41,,0,"Feels like around 50°C"
+2026-06-29,"Hot and humid with isolated clouds",40,,0,"High humidity"
+2026-06-30,"Thunderstorms, trace rainfall",40.5,30.2,0.1,"Monsoon onset conditions"
+2026-07-01,"Cloudy with moderate rain",34.8,28.6,,"Moderate rainfall"
+2026-07-02,"Cloudy with scattered rain",33,24,,"Cooler weather"
+2026-07-03,"Thunderstorms and light rain",35,28,0.8,"Light rainfall recorded"
+2026-07-04,"Monsoon showers and thunderstorms",35,27,,"Yellow alert issued"
