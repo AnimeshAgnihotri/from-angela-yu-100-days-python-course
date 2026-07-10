@@ -54,7 +54,7 @@ while game:
         print(pd.DataFrame(missed_state, columns=["missed states"]))
         print(f"current score {count}/35   {pd.DataFrame(guess_list, columns=["guessed states"])}")
 
-
+        #set should be used instead of list when order and duplicate is not needed
 
 screen.listen()
 #screen.onscreenclick(get_state_coordinate)
