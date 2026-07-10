@@ -44,12 +44,15 @@ while game:
             ycor=single_state_detail["ycor"].iloc[0]
             my_turtle_2.goto(xcor,ycor)
             my_turtle_2.write(get_input,font=("Arial",10,"normal"))
-            guess_list.append(get_input)
+            #guess_list.append(get_input)
 
 
 
     elif get_input is None:
         game=False
+        missed_state=set(states_csv["states"].values)-set(guess_list)
+        print(pd.DataFrame(missed_state, columns=["missed states"]))
+        print(f"current score {count}/35   {pd.DataFrame(guess_list, columns=["guessed states"])}")
 
 
 
