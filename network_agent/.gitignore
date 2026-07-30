@@ -1,0 +1,16 @@
+# Ignore API secrets and credentials
+.env
+config.json
+
+# Ignore Python cache & environment files
+__pycache__/
+*.pyc
+.venv/
+venv/
+ENV/
+
+# Ignore PyCharm IDE settings
+.idea/
+
+# Ignore Streamlit settings
+.streamlit/secrets.toml
